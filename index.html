@@ -1,99 +1,68 @@
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Mahdi Ghaznawy | Cyber Sentinel</title>
-  <link rel="stylesheet" href="style.css"/>
-  <script defer src="script.js"></script>
-  <script src="https://unpkg.com/scrollreveal"></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
-</head>
-<body>
-  <div class="matrix-bg"></div>
 
-  <header class="hero reveal">
-    <h1 class="typewriter"></h1>
-    <p>Cybersecurity Analyst | Threat Hunter | IT Support</p>
-    <a href="#projects" class="cta-button">Explore My Work</a>
-  </header>
+<section id="about" class="reveal">
+  <h2>About Me</h2>
+  <p>I'm a Cybersecurity and IT Support Specialist with hands-on experience in threat detection, system troubleshooting, and network configuration. I’ve built and managed a personal lab using tools like pfSense, Splunk, Active Directory, and Wireshark. I hold certifications including Security+, CySA+, Pentest+, A+, and SSCP. I earned my bachelor's in Cybersecurity and Information Assurance from Western Governors University and am currently seeking entry-level roles in cybersecurity, SOC analysis, or IT support. U.S. citizen, clearance-ready, and open to remote or on-site opportunities.</p>
+</section>
 
-  <nav class="navbar">
-    <a href="#about"><i class="fas fa-user-shield"></i> About</a>
-    <a href="#skills"><i class="fas fa-cogs"></i> Skills</a>
-    <a href="#projects"><i class="fas fa-project-diagram"></i> Projects</a>
-    <a href="#experience"><i class="fas fa-briefcase"></i> Experience</a>
-    <a href="#certifications"><i class="fas fa-certificate"></i> Certifications</a>
-    <a href="#contact"><i class="fas fa-envelope"></i> Contact</a>
-  </nav>
+<section id="skills" class="reveal">
+  <h2>Technical Skills</h2>
+  <ul>
+    <li>SIEM (Splunk), Endpoint Security, pfSense Firewall</li>
+    <li>Python, Bash, Scripting & Automation</li>
+    <li>Digital Forensics (Autopsy, FTK Imager), Threat Detection (Nmap, Wireshark)</li>
+    <li>Windows & Linux Admin, Active Directory, Office 365</li>
+  </ul>
+</section>
 
-  <section id="about" class="reveal">
-    <h2>About Me</h2>
-    <p>I’m a cybersecurity analyst and IT technician passionate about defending digital systems, with hands-on experience in risk assessments, incident response, digital forensics, and more. I’ve built my skills through volunteer work, home labs, and a cybersecurity degree from WGU.</p>
-  </section>
+<section id="projects" class="reveal">
+  <h2>Project Experience</h2>
 
-  <section id="skills" class="reveal">
-    <h2>Technical Skills</h2>
-    <ul>
-      <li>SIEM (Splunk), Endpoint Security, pfSense Firewall</li>
-      <li>Python, Bash, Scripting & Automation</li>
-      <li>Digital Forensics (Autopsy, FTK Imager), Threat Detection (Nmap, Wireshark)</li>
-      <li>Windows & Linux Admin, Active Directory, Office 365</li>
-    </ul>
-  </section>
+  <article>
+    <h3>Cybersecurity Infrastructure Upgrade – Kabul Law Firm</h3>
+    <p>Deployed pfSense firewall, segmented traffic using VLANs, configured endpoint protection with Microsoft Defender, and automated daily cloud backups. Led phishing simulations that reduced user click rate from 25% to under 10%. Created a backup and incident response plan aligned with NIST 800-53.</p>
+  </article>
 
-  <section id="projects" class="reveal">
-    <h2>Projects</h2>
-    <article>
-      <h3>Kabul Law Firm Security Upgrade</h3>
-      <p>Deployed pfSense firewall, implemented VLANs, endpoint security, phishing simulations, and NIST-aligned policies.</p>
-    </article>
-    <article>
-      <h3>Insider Data Theft Forensics</h3>
-      <p>Recovered deleted files, tracked unauthorized access, and documented findings using Autopsy and metadata analysis.</p>
-    </article>
-    <article>
-      <h3>Network Vulnerability Assessment</h3>
-      <p>Used Nmap and Wireshark to detect risks and misconfigurations, created a formal remediation report.</p>
-    </article>
-  </section>
+  <article>
+    <h3>Insider Data Theft Investigation</h3>
+    <p>Used FTK Imager and Autopsy to recover deleted files and trace metadata to an insider responsible for attempted IP theft. Documented findings for legal and compliance use, applying chain of custody and acceptable use policy frameworks.</p>
+  </article>
 
-  <section id="experience" class="reveal">
-    <h2>Professional Experience</h2>
-    <p><strong>Security Analyst - Volunteer – IronGrid Security</strong><br/>Conducted risk assessments, incident response, MFA deployment, and wrote user-focused policies.</p>
-    <p><strong>Technical Support – Volunteer - IronGrid Security</strong><br/>Remote troubleshooting, user onboarding, Office 365 support, and workstation setup.</p>
-  </section>
+  <article>
+    <h3>Network Vulnerability Assessment</h3>
+    <p>Performed internal scanning using Nmap and Zenmap to detect vulnerable services like SMBv1, FTP, and HTTP. Used Wireshark to analyze suspicious traffic patterns and DNS anomalies. Delivered a formal security report with prioritized remediation steps.</p>
+  </article>
 
-  <section id="certifications" class="reveal">
-    <h2>Certifications</h2>
-    <ul>
-      <li>CompTIA Security+, CySA+, Pentest+, Network+, A+</li>
-      <li>ISC2 SSCP, LPI Linux Essentials, ITIL 4</li>
-    </ul>
-  </section>
+  <article>
+    <h3>WLAN & Mobile Security Assessment – Alliah Corp</h3>
+    <p>Identified vulnerabilities in mobile device usage, rogue access points, and Evil Twin attacks. Recommended WPA3, mobile device management (MDM), DNS tunneling detection, and remote wipe policies. Applied FISMA, GLBA, and NIST 1800-22 standards.</p>
+  </article>
 
-  <section id="contact" class="reveal">
-    <h2>Contact</h2>
-    <p><i class="fas fa-envelope"></i> mahdighaznawy2004@gmail.com</p>
-    <p><i class="fas fa-phone"></i> (720) 490-3191</p>
-    <p><i class="fab fa-github"></i> <a href="https://github.com/MahdiQand">github.com/MahdiQand</a></p>
-    <p><i class="fas fa-certificate"></i> <a href="https://www.credly.com/users/mahdi-ghaznawy/badges#credly">Credly Certifications</a></p>
-  </section>
+  <article>
+    <h3>IT Support Virtual Lab</h3>
+    <p>Built a virtual home lab simulating enterprise help desk tasks using Windows Server and Linux. Practiced password resets, user onboarding, group policy configuration, printer support, and troubleshooting VPN and DNS issues.</p>
+  </article>
 
-  <footer>
-    <p>© 2025 Mahdi Ghaznawy</p>
-  </footer>
+</section>
 
-  <script>
-    ScrollReveal().reveal('.reveal', {
-      delay: 200,
-      duration: 1200,
-      easing: 'ease-in-out',
-      origin: 'bottom',
-      distance: '40px',
-      reset: true
-    });
-  </script>
-</body>
-</html>
+
+
+<section id="certifications" class="reveal">
+  <h2>Certifications</h2>
+  <ul>
+    <li>CompTIA Security+, CySA+, Pentest+, Network+, A+</li>
+    <li>ISC2 SSCP, LPI Linux Essentials, ITIL 4</li>
+  </ul>
+</section>
+
+<section id="contact" class="reveal">
+  <h2>Contact</h2>
+  <p><i class="fas fa-envelope"></i> mahdighaznawy2004@gmail.com</p>
+  <p><i class="fas fa-phone"></i> (720) 490-3191</p>
+  <p><i class="fab fa-github"></i> <a href="https://github.com/MahdiQand">github.com/MahdiQand</a></p>
+  <p><i class="fas fa-certificate"></i> <a href="https://www.credly.com/users/mahdi-ghaznawy/badges#credly">Credly Certifications</a></p>
+</section>
+
+<footer>
+  <p>© 2025 Mahdi Ghaznawy</p>
+</footer>
